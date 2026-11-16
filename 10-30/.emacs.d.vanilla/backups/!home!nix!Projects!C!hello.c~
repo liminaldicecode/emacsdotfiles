@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int
+main()
+{
+    puts("Hello, World!\n");
+    printf("This is printf!\n");
+
+    return(0);
+}

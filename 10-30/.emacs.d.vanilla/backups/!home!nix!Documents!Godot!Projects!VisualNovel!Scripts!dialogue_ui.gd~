@@ -1,0 +1,32 @@
+extends Control
+
+signal text_animation_done
+
+@onready var dialogue_line = %DialogueLine
+@onready var speaker_name = %SpeakerName
+
+const ANIMATION_SPEED: int = 30
+var animate_text: bool = false
+var current_visible_characters: int = 0
+
+func _ready() -> void:
+    pass
+
+func _process(delta: float) -> void:
+    if animate_text:
+        if dialogue_line.visible_ratio < 1:
+            dialogue_line.visible_ratio += (1.0/dialogue_line.text.length()) * (ANIMATION_SPEED * delta)
+            current_visible_characters = dialogue_line.visible_characters
+        else:
+            animate_text = false
+            text_animation_done.emit()
+
+func change_line(speaker: String, line: String):
+    speaker_name.text = speaker
+    current_visible_characters = 0
+    dialogue_line.text = line
+    dialogue_line.visible_characters = 0
+    animate_text = true
+
+func skip_text_animation():
+    dialogue_line.visible_ratio = 1

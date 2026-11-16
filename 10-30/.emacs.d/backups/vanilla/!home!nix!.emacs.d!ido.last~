@@ -1,0 +1,130 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/nix/Documents/Godot/Projects/VisualNovel/" . "Scripts/")
+ ("/home/nix/Documents/Godot/Projects/" . "VisualNovel/")
+ ("/home/nix/Documents/Godot/" . "Projects/")
+ ("/home/nix/etc/nixos/" . "modules/")
+ ("/home/nix/Projects/" . "Lisp/")
+ ("/home/" . "nix/")
+ ("/home/nix/.emacs.d/lisp/" . "xah-fly-keys/")
+ ("/home/nix/.emacs.d/" . "lisp/")
+ ("/home/nix/Documents/Notes/Work/" . "Study/")
+ ("/home/nix/Documents/Notes/" . "Personal/")
+ ("/home/nix/Documents/" . "Notes/")
+ ("/home/nix/.local/share/" . "applications/")
+ ("/home/nix/.local/" . "share/")
+ ("/home/nix/etc/" . "nixos/")
+ ("/home/nix/" . ".emacs.d.vanilla/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/nix/"
+ "/home/nix/.emacs.d.vanilla/"
+ "/home/nix/Documents/Notes/Personal/"
+ "/home/nix/Documents/Godot/Projects/VisualNovel/Scripts/"
+ "/home/nix/.emacs.d/"
+ "/home/nix/.local/share/applications/"
+ "/home/nix/etc/nixos/modules/"
+ "/home/nix/etc/nixos/"
+ "/home/nix/Documents/Notes/Game/"
+ "/home/nix/Projects/Lisp/"
+ "/home/nix/Projects/HTTPS-Sever-C/"
+ "/home/nix/Projects/C/"
+ "/home/nix/etc/nixos/modules/tuiPrograms/"
+ "/home/nix/etc/nixos/modules/guiPrograms/"
+ "/home/nix/.config/gtk-3.0/"
+ "/home/nix/Projects/LearnCPP/"
+ "/home/nix/Documents/"
+ "/home/nix/.applications/"
+ "/home/nix/Documents/Notes/Work/"
+ "/home/nix/Documents/Notes/Work/Study/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "early-init.el"
+ "init.el"
+ "eToDos.org"
+ "Character.gd"
+ "Houdoku.desktop"
+ "emacs-vanilla.desktop"
+ "desktop.nix"
+ "home.nix"
+ "ToDos.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/nix/" (27350 62731 513773 475000) "Videos/" ".applications/" "Projects/" ".mpv-cache/" "./" ".bashrc" "Pictures/" ".pki/" ".xinitrc" "Public/" ".emacs-backup-09-28-2026" ".teco_ini" "etc/" ".bash_profile" "../" ".gdbinit" ".emacs-backup-10-16-2026" ".config/" ".steampid" ".wget-hsts" "Desktop/" ".var/" ".gnupg/" ".pulse-cookie" ".vscode-oss/" ".nix-defexpr/" ".hermes/" ".viminfo" "Calibre Library/" ".nvidia-settings-rc" ".AffinityLinux-Appimage/" ".wine64/" ".vim/" ".xsession-errors" ".gitconfig" "Music/" ".local/" ".nix-profile/" ".inputrc" ".emacs" ".Xresources" ".photon/" ".xsession-errors.old" ".ICEauthority" ".emacs.d.vanilla/" ".npm/" ".compose-cache/" ".claude.json" ".Xresources.backup" ".codex/" "Downloads/" "Documents/" ".profile" ".bash_history" ".ratpoisonrc" ".ssh/" ".gtkrc-2.0" ".nix/" "Templates/" "..vimrc.un~" ".steam/" ".stremio-server/" ".emacs.d/" ".nv/" ".mwmrc" ".steampath" ".Xauthority" ".vimrc" ".bashrc.backup" ".cache/" ".icons/" ".wine/" ".subversion/" "bin/")
+
+ ("/home/nix/.emacs.d.vanilla/" (27350 62624 340448 889000) "./" "../" "auto-save-list/" "kkcrc" "init.el" "lisp/" "early-init.el" "custom.el" "eln-cache/" "backups/" "elpa/" "tramp" "recentf" "ido.last" "ido.last~" "session.2797daca9-e725-4674-841a-4df58ded51eb" "temp/")
+
+ ("/home/nix/Documents/Notes/Personal/" (27347 2477 371226 63000) "ToDos.md" "Bookmeter.md" "./" "TODOs-Daily.org" "../" "TODOs-OnReady.org" "BookNotes.md" "Bakers-percentage-egg-fat-bread.xcf" "Readlist.md" "Anilist.org" "Xah.cc" "Writing.org" "eToDos.org")
+
+ ("/home/nix/Documents/Godot/Projects/VisualNovel/Scripts/" (27348 8302 931243 828000) "./" "../" "main.gd.uid" "Character.gd.uid" "main.gd" "dialogue_ui.gd.uid" "dialogue_ui.gd" "text_blip_sound.gd" "character_sprite.gd.uid" "text_blip_sound.gd.uid" "Character.gd" "character_sprite.gd")
+
+ ("/home/nix/Documents/Godot/Projects/VisualNovel/" (27348 12558 43117 658000) "icon.svg" "./" "Scenes/" "../" "Scripts/" "icon.svg.import" ".editorconfig" "Assets/" ".gitignore" "project.godot" ".gitattributes" ".godot/")
+
+ ("/home/nix/Documents/Godot/Projects/" (27345 34215 956471 677000) "./" "MaterialMaker/" "../" "TopDownGame/" "Shaderland/" "HorrorFirstPersonController/" "FirstPersonController_base/" "polygon-starter/" "FirstPersonController_base.zip" "gdscript/" "platformer_3d/" "VoxelGi/" "ThirdPersonRedux/" "VisualNovel/" "Playground/" "prototyping_1a/" "StateMachineCharacterController/" "Godot_StarRail_Shader_Demo/" "CharacterController/")
+
+ ("/home/nix/Projects/" (27346 9631 461128 228000) "fordon greeman/" "Hermes/" "./" "wacom_pan.sh" "FeetToMeters.py" "Gemini/" "C/" "../" "repos.png" "Krita/" "bash/" "PythonCourse/" "ysap-bash/" "obsidian-launcher.sh" "LearnCPP/" "Haskell/" "Excalidraw/" "cmodoro/" "OpenCode/" "GTK-Stuff/" "HTTPS-Sever-C/" "daccfiles/" "Assembly/" "CAPS-LOCK-FIX/" "lsbtw/" "C-Stuff/" "Antigravity/" "Lisp/" "Python-Pomodoro/" "Repositories/" ".gnome-builder/")
+
+ ("/home/nix/.emacs.d/" (27348 12928 486678 175000) "./" "../" "auto-save-list/" "kkcrc" "lisp/" "early-init.el" "custom.el" "eln-cache/" "backups/" "elpa/" "tramp" "recentf" "ido.last" "ido.last~" "session.2797daca9-e725-4674-841a-4df58ded51eb" "temp/")
+
+ ("/home/nix/.local/share/applications/" (27348 9201 514055 672000) "Fable - The Lost Chapters.desktop" "./" "RimWorld.desktop" "chrome-picebhhlijnlefeleilfbanaghjlkkna-Default.desktop" "Elsword.desktop" "../" "chrome-pjoehdfoeanehfkmdeidfhljagfdcmcn-Default.desktop" "FireAlpaca.desktop~" "PureRef.desktop~" "godot.desktop" "wine/" "wine-extension-hlp.desktop" "vivaldi-ajgobbadjfdiblhkhkjghnhnkiilighh-Default.desktop" "animoia.desktop" "org.gnome.Shell.Extensions.GSConnect.desktop" "Houdoku.desktop" "Morimens.desktop" "emacs-vanilla.desktop" "FireAlpaca.desktop" "wine-extension-crt.desktop" "KritaCustom.desktop" "S.T.A.L.K.E.R. Shadow of Chernobyl.desktop" "chrome-dnfpoenibinnbbckgbhendmlljoobcfg-Default.desktop" "mimeinfo.cache" "Umamusume Pretty Derby.desktop" "#PureRef.desktop#~" "wine-extension-msp.desktop" "wine-extension-vbs.desktop" "wine-extension-chm.desktop" "mimeapps.list" "org.gnome.Shell.Extensions.GSConnect.Preferences.desktop" "Team Fortress 2.desktop" "chrome-calmmmblcgmjjionadbmhdioocmmccho-Default.desktop" "PureRef.desktop")
+
+ ("/home/nix/.local/share/" (27348 8696 221932 826000) "drkonqi/" "gnome-shell/" "knewstuff3/" "flatpak/" "./" "kdevfiletemplates/" "klipper/" "grilo-plugins/" "nvim/" "gegl-0.4/" "kactivitymanagerd/" "godot/" "user-places.xbel.tbcache" "TelegramDesktop/" "nautilus/" "krunnerstaterc" "../" "ark/" "krita/" "kdevelop/" "aurorae/" "sddm/" "akonadi_migration_agent/" "pki/" "konsole/" "nautilus-python/" "contacts/" "nix/" "fcitx5/" "drawpile/" "gnome-builder/" "nyxt/" "color-schemes/" "gvfs-metadata/" "dolphin/" "xdg-desktop-portal/" "akonadi/" "baloo/" "nvf/" "dbus-1/" "gnome-settings-daemon/" "icc/" "user-places.xbel" "sounds/" ".vivaldi_reporting_data" "okular/" "plasma/" "keyrings/" "kwalletd/" "Icons8/" "backgrounds/" "krita.log" "local-mail/" "orage/" "wallpapers/" "folks/" "recently-used.xbel.HC67U3" "apps/" "applications/" "stremio/" "org.gnome.TextEditor/" "kdevscratchpad/" "calibre-ebook.com/" "vicinae/" "nemo-python/" "recently-used.xbel.KITGW3" "evolution/" "kdenlive/" "qalculate/" "FireAlpaca/" "xfce4/" "libkunitconversion/" "mime/" "yelp/" "krita-sysinfo.log" "user-places.xbel.bak" "epiphany/" "rofi/" "vulkan/" "kdevappwizard/" "desktop-directories/" "gwenview/" "Mousepad/" "opentui/" "recently-used.xbel" "opencode/" "qBittorrent/" "recently-used.xbel.44WYV3" "vlc/" "icons/" "Steam/" "Trash/" "kded6/" "ristretto/")
+
+ ("/home/nix/etc/nixos/modules/" (27348 2512 361170 605000) "./" "design.nix" "../" "utils.nix" "git.nix" "desktop.nix")
+
+ ("/home/nix/etc/nixos/" (27347 2022 126345 888000) "./" "../" "configuration.nix" ".home.nix.un~" ".flake.nix.un~" "modules/" ".git/" "maintenance.nix" ".gitignore" "flake.nix" "home.nix" "shell.nix" "flake.lock" "hardware-configuration.nix")
+
+ ("/home/nix/.applications/" (27343 64866 286502 68000) "./" "../" "emacs-logo.png" "krita-5.3.4-x86_64.AppImage" "animoia-1.1.0-linux.AppImage" "FireAlpaca-2.16.3-x86_64.AppImage" "Obsidian.svg" "Houdoku-2.16.0.AppImage" "PureRef-2.1.3_x64.Appimage" "animoia-icon.png" "Tenzen-0.1.30-linux-x64.AppImage" "Photon-Studio-0.1.34-linux-x64.AppImage" "zen-browser-dark.svg" "Affinity-3-x86_64.AppImage" "krita-icon.png")
+
+ ("/home/nix/.config/gtk-3.0/" (27345 14645 132746 289000) "./" "../" "settings.ini" "colors.css" "gtk.css" "bookmarks")
+
+ ("/home/nix/Projects/C/" (27334 12534 238764 994000) "Memory Management/" "./" "hello" "../" "hello_new" "testc_buid/" "hello.c" "temperatures-table.c" "temperatures-table" "a.out" "test" "test.c" "test.c~" "hello.c~")
+
+ ("/home/nix/Documents/Notes/Game/" (27342 33799 302760 292000) "./" "synopsis.md" "../" "VisualNovel-Reference.md" "Roadmap.org" "Snippets.org" "#Game-Story.org#" "account.txt" "Brief.org" "Game-Story.org")
+
+ ("/home/nix/Documents/" (27345 42736 507062 845000) "Books ZH/" "Sync/" "./" "Books JP/" "../" "sk or v1 adab8c1ac152cc86b7a337898d67181b4c841d4ba79a2d7143dc4ec3fc665c1b.txt" "bashprompt.sh" "Uni/" "GodotBackup-2026-10-14.7z" "Mpv/" "age1nmcv0f0e2lh5qfy907rf6t5c0yltjhjcy6htavrk38m08kmkru4q5xfp8t.txt" "Emacs/" "Obsidian/" "Notes/" "OnReady/" "vim handleKeys C b false.txt" "Wolf/" "Books EN/" "Blender/" "12axes-report-2026-10-08.pdf" "emacs.nix" "Godot/")
+
+ ("/home/nix/Documents/Godot/" (27312 64031 554448 437000) "Projects/" "./" "../" "minimal_theme.tres" "Assets/")
+
+ ("/home/nix/Projects/HTTPS-Sever-C/" (27329 26356 19904 796000) "./" "../" "first/" "server.c" "server" "#server.c#")
+
+ ("/home/nix/Projects/Lisp/" (27332 57364 871294 496000) "./" "slop." "main.lisp" "../" "test.org" "slop.scm" "shell.nix" "#test.org#")
+
+ ("/home/nix/Projects/LearnCPP/" (27334 5470 412869 389000) "add.cpp" "./" "main.cpp~" "../" "src/" "foward-declaration" "LearnCPP.kdev4" "CMakeLists.txt" "main.cpp" "hey" "main1" ".kdev4/" "adding" "build/" "main" "foward-declaration.cpp")
+
+ ("/home/nix/Projects/C-Stuff/" (27301 63385 481187 739000) "./" "hello" "../" "diagraphs.c" "hello.c" "trigraphs.c~" "diagraphs" "trigraphs" "trigraphs.c")
+
+ ("/home/nix/Documents/Notes/" (27325 2291 133729 359000) "./" "../" "Personal/" "Work/" "Game/" "Website/" "Code/")
+
+ ("/home/nix/etc/nixos/modules/tuiPrograms/" (27323 8580 864345 561000) "./" "../" "neovim.nix")
+
+ ("/home/nix/etc/nixos/modules/guiPrograms/" (27323 7058 243676 388000) "./" "../" "neovim.nix")
+
+ ("/home/nix/Calibre Library/" (27301 52926 596281 596000) "./" "../" "metadata.db" "metadata_db_prefs_backup.json" ".calnotes/" ".caltrash/" "Yi Yue  kuro/")
+
+ ("/home/nix/Documents/Notes/Work/" (27317 17199 108201 559000) "./" "Study/" "../" "Samsung-N150-plus.org" "HP-Pavilion-15-CW0XXX.org" "HP-Pavilion-15-CW0XXX.org~" "HP-Pavilion-Mariela.org~" "HP-Pavilion-Mariela.org")
+
+ ("/home/nix/Documents/Notes/Work/Study/" (27313 46475 423928 334000) "./" "../" "Schematics.org~" "Schematics.org")
+
+ ("/home/nix/.emacs.d/lisp/xah-fly-keys/" (27308 21967 837388 661000) "README.md" "./" "../" ".git/" "i/" ".gitignore")
+
+ ("/home/nix/.emacs.d/lisp/" (27308 21967 837388 661000) "./" "../" "xah-fly-keys.el" "xah-fly-keys/")
+
+ ("/home/nix/.local/" (27294 3292 508885 258000) "./" "../" "share/" "state/" "lib/")
+
+ ("/home/nix/etc/" (27296 28060 230358 58000) "./" "../" "nixos/")
+
+ ("/home/" (27292 25617 421383 639000) "./" "../" "nix/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

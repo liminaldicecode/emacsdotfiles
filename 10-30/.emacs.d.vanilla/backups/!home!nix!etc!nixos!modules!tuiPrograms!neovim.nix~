@@ -1,0 +1,34 @@
+{ config, pkgs, lib, ... } :
+
+{
+
+  # options = {
+  #   emacs.enable =
+  #     lib.mkEnableOption "enables neovim module";
+  # };
+  
+  # config = lib.mkIf config.neovim.enable {
+	  # set number
+	  # set smartindent
+	  # set autoindent
+	  programs.neovim = {
+	    enable = true;
+	    extraConfig = ''
+	'';
+	  };
+
+	  programs.nvf = {
+		  enable = true;
+		  settings = {
+			  vim.theme = {
+				  enable = true;
+				  name = "catppuccin";
+				  style = "mocha";
+				};
+        vim.autopairs.nvim-autopairs.enable = true;
+		    vim.languages.nix.enable = true;
+		    vim.treesitter.enable = true;
+      };
+    };
+  #};
+}

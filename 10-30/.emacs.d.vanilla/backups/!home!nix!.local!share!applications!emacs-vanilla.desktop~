@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Emacs Vanilla
+Exec=emacs -q --load "~/.emacs.d.vanilla/init.el"
+Icon=/home/nix/.applications/emacs-logo.png
+Terminal=false
+Categories=Development;

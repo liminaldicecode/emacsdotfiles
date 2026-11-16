@@ -1,0 +1,7 @@
+      make-prompt() {
+      local rst=$'\e[0m'
+      local bold=$'\e[1m'
+      local col1=$'\e[38;5;24m'
+local col1=$'\e[38;5;24m'
+local col1=$'\e[38;5;24m'
+local col1=$'\e[38;5;24m'

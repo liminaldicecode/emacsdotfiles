@@ -1,0 +1,27 @@
+{ config, pkgs, lib, ... } :
+
+{
+  
+  config = {
+	  programs.emacs = {
+	    enable = true;
+	    extraPackages = epkgs: [
+        epkgs.magit
+        epkgs.company
+        epkgs.vterm
+        epkgs.multiple-cursors
+        epkgs.ghostel
+        epkgs.company-nixos-options
+        epkgs.nix-mode
+        epkgs.doom-themes
+        epkgs.xclip
+      ];
+	    extraConfig = ''
+	(ido-mode t)
+	(add-hook 'after-init-hook 'global-company-mode)
+	(menu-bar-mode 0)
+	(electric-pair-mode t)
+	'';
+	  };
+  };
+}

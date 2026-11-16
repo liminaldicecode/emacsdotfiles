@@ -1,0 +1,47 @@
+extends Node2D
+
+@onready var character_sprite = %Character
+@onready var dialogue_ui = %DialogueUI
+
+var dialogue_index: int = 0
+
+const dialogue_lines : Array[String] = [
+    "Phoenix: Hola! Mi nombre es Phoenix Wright. Un gusto.",
+    "Trucy: Que tal! Soy Trucy!",
+    "Apollo: Hola ustedes dos!Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum. ",
+    "Phoenix: Soy todo oidos.",
+    "Trucy: Que carajo fue eso.",
+    "Apollo: lol"
+]
+
+func _ready() -> void:
+    dialogue_ui.text_animation_done.connect(_on_text_animation_done)
+    dialogue_index = 0
+    process_current_line()
+
+func _input(event: InputEvent) -> void:
+    if event.is_action_pressed("next_line"):
+        if dialogue_ui.animate_text:
+            dialogue_ui.skip_text_animation()
+        else:
+            if dialogue_index < len(dialogue_lines) - 1:
+                dialogue_index += 1
+                process_current_line()
+
+func parse_line(line: String):
+    var line_info = line.split(":")
+    assert(len(line_info) >= 2)
+    return {
+        "speaker_name": line_info[0],
+        "dialogue_line": line_info[1],
+    }
+
+func process_current_line():
+    var line = dialogue_lines[dialogue_index]
+    var line_info = parse_line(line)
+    var character_name = Character.get_enum_from_string(line_info["speaker_name"])
+    dialogue_ui.change_line(character_name, line_info["dialogue_line"])
+    character.change_character(character_name)
+
+func _on_text_animation_done():
+    character.play_idle_animation()

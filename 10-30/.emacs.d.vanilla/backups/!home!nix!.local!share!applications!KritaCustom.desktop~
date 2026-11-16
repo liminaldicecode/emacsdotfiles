@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Krita 5.3.4
+Exec=appimage-run "/home/nix/.applications/krita-5.3.4-x86_64.AppImage"
+Icon=/home/nix/.applications/krita-icon.png
+Terminal=false
+Categories=Graphics;
+

@@ -1,0 +1,6 @@
+Mwm*useIconBox: True
+MWM*iconBoxTitle: Apps
+MWM*iconBoxGeometry: 2x2
+MWM*iconBoxSBDisplayPolicy: vertical
+
+MWM*clientDecoration: all

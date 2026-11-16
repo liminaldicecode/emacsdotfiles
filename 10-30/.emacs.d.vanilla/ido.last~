@@ -1,0 +1,82 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/nix/.emacs.d/lisp/" . "xah-fly-keys/")
+ ("/home/nix/.emacs.d/" . "lisp/")
+ ("/home/nix/Documents/Notes/Work/" . "Study/")
+ ("/home/nix/Documents/Notes/" . "Personal/")
+ ("/home/nix/Documents/" . "Notes/")
+ ("/home/nix/.local/share/" . "applications/")
+ ("/home/nix/.local/" . "share/")
+ ("/home/nix/etc/" . "nixos/")
+ ("/home/nix/" . ".local/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/nix/.local/share/applications/"
+ "/home/nix/"
+ "/home/nix/Documents/"
+ "/home/nix/etc/nixos/"
+ "/home/nix/.applications/"
+ "/home/nix/Documents/Notes/Work/"
+ "/home/nix/Documents/Notes/Personal/"
+ "/home/nix/Documents/Notes/Work/Study/"
+ "/home/nix/.emacs.d/"
+ "/home/nix/etc/nixos/modules/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "bashprompt.txt"
+ "flake.nix"
+ "#PureRef.desktop#"
+ "houdoku.desktop"
+ "FireAlpaca.desktop"
+ "Samsung-N150-plus.org"
+ ".emacs"
+ "TODOs-OnReady.org"
+ "Assembly.org"
+ "Anilist.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/nix/.local/share/applications/" (27318 6072 44637 933000) "./" "RimWorld.desktop" "chrome-picebhhlijnlefeleilfbanaghjlkkna-Default.desktop" "../" "Krita-5.3.4.desktop" "chrome-pjoehdfoeanehfkmdeidfhljagfdcmcn-Default.desktop" "FireAlpaca.desktop~" "PureRef.desktop~" "wine/" "FireAlpaca.desktop" "S.T.A.L.K.E.R. Shadow of Chernobyl.desktop" "chrome-dnfpoenibinnbbckgbhendmlljoobcfg-Default.desktop" "mimeinfo.cache" "houdoku.desktop" "#PureRef.desktop#~" "Team Fortress 2.desktop" "PureRef.desktop")
+
+ ("/home/nix/.local/share/" (27318 5841 1449 179000) "flatpak/" "./" "nvim/" "gegl-0.4/" "godot/" "user-places.xbel.tbcache" "../" "ark/" "krita/" "pki/" "nix/" "gvfs-metadata/" "nvf/" "user-places.xbel" ".vivaldi_reporting_data" "okular/" "keyrings/" "krita.log" "orage/" "recently-used.xbel.HC67U3" "applications/" "stremio/" "calibre-ebook.com/" "kdenlive/" "FireAlpaca/" "xfce4/" "mime/" "krita-sysinfo.log" "user-places.xbel.bak" "rofi/" "vulkan/" "desktop-directories/" "Mousepad/" "recently-used.xbel" "qBittorrent/" "recently-used.xbel.44WYV3" "vlc/" "icons/" "Steam/" "Trash/" "ristretto/")
+
+ ("/home/nix/" (27318 6157 85992 538000) "Videos/" ".applications/" "Projects/" ".mpv-cache/" "./" ".bashrc" "Pictures/" ".pki/" ".xinitrc" "Public/" ".teco_ini" "etc/" ".bash_profile" "../" ".gdbinit" ".config/" ".steampid" ".wget-hsts" "Desktop/" ".pulse-cookie" ".nix-defexpr/" ".emacs~" ".viminfo" "Calibre Library/" ".nvidia-settings-rc" ".wine64/" ".xsession-errors" "Music/" ".local/" ".nix-profile" ".inputrc" ".emacs" ".Xresources" ".xsession-errors.old" ".ICEauthority" ".compose-cache/" "Downloads/" "Documents/" ".profile" ".bash_history" ".ratpoisonrc" ".ssh/" "VirtualBox VMs/" ".nix/" "Templates/" ".steam/" ".stremio-server/" ".emacs.d/" ".nv/" ".mwmrc" ".steampath" ".Xauthority" ".vimrc" ".bashrc.backup" ".cache/" ".wine/")
+
+ ("/home/nix/etc/nixos/" (27317 53496 28160 550000) "./" "../" "configuration.nix" "modules/" ".git/" "shell.nix~" ".gitignore" ".home.nix.swp" "flake.nix" "home.nix" "shell.nix" "flake.lock" "hardware-configuration.nix")
+
+ ("/home/nix/.applications/" (27317 10128 736220 582000) "./" "../" "FireAlpaca-2.16.3-x86_64.AppImage" "Houdoku-2.16.0.AppImage" "PureRef-2.1.3_x64.Appimage")
+
+ ("/home/nix/.emacs.d/" (27317 19191 919877 822000) "./" "../" "auto-save-list/" "kkcrc" "lisp/" "early-init.el" "eln-cache/" "elpa/" "tramp" "recentf" "ido.last" "ido.last~" "session.2797daca9-e725-4674-841a-4df58ded51eb" "temp/")
+
+ ("/home/nix/Documents/Notes/Work/" (27317 17199 108201 559000) "./" "Study/" "../" "Samsung-N150-plus.org" "HP-Pavilion-15-CW0XXX.org" "HP-Pavilion-15-CW0XXX.org~" "HP-Pavilion-Mariela.org~" "HP-Pavilion-Mariela.org")
+
+ ("/home/nix/Documents/Notes/Work/Study/" (27313 46475 423928 334000) "./" "../" "Schematics.org~" "Schematics.org")
+
+ ("/home/nix/Documents/Notes/Personal/" (27315 57091 267669 52000) "./" "../" "TODOs-OnReady.org" "Anilist.org~" "Anilist.org" "Xah.cc" "TODOs-OnReady.org~" "Xah.cc~" "Writing.org~" "Writing.org" "#Xah.cc#")
+
+ ("/home/nix/.emacs.d/lisp/xah-fly-keys/" (27308 21967 837388 661000) "README.md" "./" "../" ".git/" "i/" ".gitignore")
+
+ ("/home/nix/.emacs.d/lisp/" (27308 21967 837388 661000) "./" "../" "xah-fly-keys.el" "xah-fly-keys/")
+
+ ("/home/nix/Documents/" (27312 64027 714014 633000) "Books ZH/" "./" "Books JP/" "../" "Uni/" "Notes/" "Books EN/" "Blender/" "Godot/")
+
+ ("/home/nix/Documents/Notes/" (27306 33930 699699 373000) "./" "../" "Personal/" "Work/")
+
+ ("/home/nix/.local/" (27294 3292 508885 258000) "./" "../" "share/" "state/" "lib/")
+
+ ("/home/nix/etc/" (27296 28060 230358 58000) "./" "../" "nixos/")
+
+ ("/home/nix/etc/nixos/modules/" (27301 52893 226927 452000) "./" "../" "git.nix" "emacs.nix")
+
+ ("/home/" (27292 25617 421383 639000) "./" "../" "nix/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

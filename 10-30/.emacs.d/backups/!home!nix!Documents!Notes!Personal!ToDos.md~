@@ -1,0 +1,69 @@
+## Code
+
+- [x] Leer roadmap y **accionar**
+- [ ] Hacer demo VN - https://www.youtube.com/watch?v=ZXgeI25GBRU&list=PLaFybI1jC01VcNlX0HJTaAZo3iHKdH2dD
+  - [ ] Añadir mas dialogos, y testear transiciones.
+
+https://www.youtube.com/watch?v=zbN_XU2tGKQ&list=PLaFybI1jC01VcNlX0HJTaAZo3iHKdH2dD&index=4
+11:47 - Parte 3.
+Adding theme...
+
+- Theme added, + sign and modifiy specific component.
+
+- [x] Antigravity setup
+  - [x] Ordenar nixos/config
+- [ ] Ver videos de coding
+- [x] Probar OpenCode
+
+### Notes
+
+---
+
+Hacer placeholder (personaje oscuro, anonimo) para usar de fallback cuando carga un personaje en escena.
+
+# ToDo's
+
+- [ ] Leer musubimonogatari
+- [ ] Hacer curso tenten discord link tl
+- [ ] Hacer base modelo 3D para animacion
+- [x] Escribir
+- [x] Checkear facu
+- [ ] Explorar concepto Rock, Paper, Scissors y RGB
+- [ ] Terminar integrador AMV
+  - [x] Hacer storyboard
+  - [x] Crear modelo maquina expendedora - https://youtu.be/BzTN2yTgTj0?si=6LI6fIYSz2BhEv8g&t=324
+    - [ ] 5:25 video, hacer latas
+  - [ ] Crear escenario
+- [x] Encontrar editor android, vscodium
+
+## Ejercitarme -> The Quick & The Dead
+
+## Links
+
+[3D Animation](https://www.youtube.com/watch?v=iMwjYuyefRs)
+
+### TODO Hacer pan
+
+1. Esperar 1 hora bulk fermentation
+   luego de la hora, hacer stretch and fold
+2. Esperar otra hora, y hacer pre-shaping.
+   tirar un poquito de harina encima
+   esperar otra hora de proofing
+3. Dejar hacer un bench rest 15 min,
+   mientras se calienta el horno tal vez.
+4. Hacer final shaping
+5. Final proofing, check times (?)
+6. Scoring
+7. Baking - preheat 30min
+8. cooling
+
+```org
+** DONE Hacer modelo 3D - Juego
+** DONE Dibujar turnaround diseño Non
+Hacer mas concept art, seguir definiendo el personaje.
+** DONE Fix screen tearing Wayland
+Allegedly badly connected HDMI (?)
+** DONE Add appindicator & tweak gnome extensions
+** DONE Add screenshot program
+Using default built in gnome screenshot tool
+```
