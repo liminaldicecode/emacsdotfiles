@@ -5,7 +5,7 @@
 ;; (global-set-key (kbd "C-,") 'global-devil-mode)
 ;; (assoc-delete-all "%k SPC" devil-special-keys)
 
-;; Meow Mode
+;; Meow
 (require 'meow)
 (defun meow-setup ()
   (setq meow-cheatsheet-layout meow-cheatsheet-layout-qwerty)
@@ -14,7 +14,7 @@
    '("k" . meow-prev)
    '("<escape>" . ignore))
   (meow-leader-define-key
-    '("1" . meow-digit-argument)
+   '("1" . meow-digit-argument)
    '("2" . meow-digit-argument)
    '("3" . meow-digit-argument)
    '("4" . meow-digit-argument)
@@ -54,6 +54,7 @@
    '("E" . meow-next-symbol)
    '("f" . meow-find)
    '("g" . meow-cancel-selection)
+   '("C-[" . meow-cancel-selection)
    '("G" . meow-grab)
    '("h" . meow-left)
    '("H" . meow-left-expand)
@@ -91,6 +92,8 @@
   (meow-define-keys
       'insert
     '("C-[" . meow-insert-exit)))
+
+
 (meow-setup)
 (meow-global-mode 1)
 
